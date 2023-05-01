@@ -44,7 +44,7 @@ namespace op
                 #else
                     UNUSED(message);
                     UNUSED(type);
-                    error("Unity plugin only available on Windows.", __LINE__, __FUNCTION__, __FILE__);
+//                    error("Unity plugin only available on Windows.", __LINE__, __FUNCTION__, __FILE__);
                 #endif
             }
 
